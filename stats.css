@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'FFT Regular';
+    src: url('fonts/final_fantasy_tactics-webfont.eot');
+    src: url('fonts/final_fantasy_tactics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/final_fantasy_tactics-webfont.woff') format('woff'),
+         url('fonts/final_fantasy_tactics-webfont.ttf') format('truetype'),
+         url('fonts/final_fantasy_tactics-webfont.svg#FFT Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url('img/bg.png');
+    font-family: 'FFT Regular', sans-serif;
+    font-size: 51px;
+}
+
+.container {
+    background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.8) 100%);
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box {
+    background: url('img/box_bg.gif');
+    margin: 20px auto;
+    padding: 10px;
+    width: 800px;
+}
+
+.box p {
+    margin: 0 0 20px;
+}
